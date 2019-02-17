@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+}
+
+.nav-bar {
+    background: rgb(68, 81, 255);
+    padding: 20px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: antiquewhite;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.search-container {
+    width: 70%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-div h5 {
+    color: gray;
+}
+
+.search-div input {
+    width: 95%;
+    padding: 5px;
+}
+
+.footer-div {
+    margin-top: 50px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.result-container {
+    width: 70%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.div-img {
+    width: fit-content;
+}
+
+.div-img img {
+    height: 200px;
+    width: 200px;
+}
+
+#view-profile {
+    margin: auto;
+    display: block;
+    border: 1 solid;
+    background: rgb(59, 18, 240);
+    border-radius: 15px;
+    color: white;
+    width: 200px;
+    height: 30px;
+}
+
+#view-profile:hover {
+    background: red;
+}
+
+.user-data {
+    padding: 10px;
+    margin: 5px 5px 5px 10px;
+    width: 100%;
+}
+
+#public-repo,
+#public-follwing {
+    background: rgb(11, 74, 247);
+    border: 1px solid;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.user-data-buttons button {
+    border: 1px solid;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#public-repo:hover,
+#public-follwing:hover {
+    background: rgb(0, 37, 160);
+}
+
+#public-followers {
+    background: rgb(40, 255, 40);
+}
+
+#public-gists {
+    background: rgb(175, 175, 175);
+}
+
+#public-followers:hover {
+    background: rgb(11, 184, 11);
+}
+
+#public-gists:hover {
+    background: rgb(121, 121, 121);
+}
+
+table,
+th,
+td {
+    padding: 10px;
+    margin-top: 10px;
+    border-collapse: collapse;
+    border: 0.5px solid black;
+    font-size: 15px;
+}
+
+.loader {
+    border: 5px solid #f3f3f3;
+    /* Light grey */
+    border-top: 5px solid #3498db;
+    /* Blue */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: none;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
